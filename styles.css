@@ -1,0 +1,103 @@
+/*BLOQUE 1*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color:rgb(216, 249, 250);
+}
+.header{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content:space-between;
+}
+.header> *{
+    font-size: 7px;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+
+.img1{
+    width: 25px;
+    height:25px;   
+}
+.navBar{
+    display: inline-flex ;
+    flex-wrap:nowrap;
+    list-style: none;
+    align-items: center;
+    
+}
+.vinculo{
+    text-decoration: none;
+    color: black;
+}
+.lisT{
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+
+.content{
+    display: grid;
+    margin: 10px;
+    background-color: tomato;
+}
+
+.Bar{
+    margin: 5px;
+    background-color: whitesmoke;
+    
+    
+} 
+
+.capital-letter{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.paragraph{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align:justify;
+    font-size: 7pt;
+    
+    line-height: 10pt;
+    
+}
+
+.estaciones{
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+  
+}
+.estacion{
+    display: grid;
+    background-color: darksalmon;
+    margin: 10px;
+}
+
+.map{   
+    width: 250px;
+    height: 250px;
+    margin-left: 15%;
+}
+
+.Icon{
+    display: flex;
+    justify-content:center;
+}
+.Icon > *{
+    
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
+
